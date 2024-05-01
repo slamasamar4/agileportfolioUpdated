@@ -1,0 +1,87 @@
+.Sidebar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 4rem;
+    transition: all 300ms ease;
+    padding-left: 4rem;
+}
+
+.agileProject {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    height: 5rem;
+    font-weight: bold;
+    font-size: 22px;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+
+.agileProject>span {
+    color: var(--pink);
+}
+
+
+.profilePic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user--profile {
+    height: 85%;
+    margin-top: 1.5rem;
+    background: #eda9c8;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user--detail {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user--detail img {
+    background: #ede4e4;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.user--detail .username {
+    color: #efe9ea;
+margin-bottom:0cqmin;
+
+}
+
+.user--detail .email {
+    color: #a19b9b;
+    font-size: small;
+}
+
+.user-courses {
+    background: #f7eae3;
+    flex: 1;
+    border-radius: 10px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10rem;
+
+
+
+}
+
+
+
+

@@ -1,0 +1,18 @@
+.eventstext{
+    display:flex;
+    height: 5rem;
+    font-weight: bold;
+    font-size: 22px;
+    gap:1rem;
+    align-items:center;
+    justify-content: center;
+    height: 4%;
+    margin-top: 5rem;
+    margin-left: 5rem;
+
+}
+
+
+.eventstext>span>span{
+    color: var(--pink);
+    }
